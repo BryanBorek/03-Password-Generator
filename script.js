@@ -25,7 +25,7 @@ function writePassword() {
 //Generate password to be written
 function generatePassword() {
   chooseLength();
-  if(passwordLength > 8 && passwordLength < 128) {
+  if(passwordLength > 8 && passwordLength < 129) {
     chooseCharacters();
   }
   if(selectedCharacters.length > 0) { //stop from displaying on window if password length undefined
